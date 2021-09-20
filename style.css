@@ -94,7 +94,7 @@ li{
 /* SCROLL STYLE */
 .js-scroll{
     opacity: 0;
-    transition: opacity 1000ms;
+    transition: opacity 1500ms;
     
 }
 
