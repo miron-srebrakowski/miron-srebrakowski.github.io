@@ -1,5 +1,5 @@
 const scrollElements = document.querySelectorAll(".js-scroll");
-const scrollSize = 80;
+const scrollSize = 85;
 
 scrollElements.forEach((el) => {
     el.getElementsByClassName.opacity = 0;
