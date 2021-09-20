@@ -91,6 +91,18 @@ li{
 
 }
 
+/* SCROLL STYLE */
+.js-scroll{
+    opacity: 0;
+    transition: opacity 1500ms;
+    
+}
+
+.js-scroll.scrolled{
+    opacity: 1;
+    
+}
+
 /* NAV BAR */
 .navbar{
     display: flex;
