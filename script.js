@@ -1,6 +1,8 @@
 const scrollElements = document.querySelectorAll(".js-scroll");
 const scrollSize = 90;
 
+
+/* SCROLL FADE IN/OUT */
 scrollElements.forEach((el) => {
     el.getElementsByClassName.opacity = 0;
 })
@@ -32,3 +34,16 @@ function handleScrollAnimation(){
 window.addEventListener("scroll", () => {
     handleScrollAnimation();
 });
+
+/* NAME FADE IN/OUT */
+
+$(document).ready(() => {
+    $(window).scroll((event) => {
+        let scroll = $(this).scrollTop();
+        let opacity = scroll/1000;
+
+        if (opacity >= 0) {
+            $('.name-logo').css('opacity', opacity);
+        }
+    } )
+})
